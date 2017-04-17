@@ -3,9 +3,10 @@
 class ProductController
 {
 	
-	function actionList()
+	function actionView($id)
 	{
-		echo "string";
+		require_once ROOT.'/views/product/view.php';
+
 		return true;
 	}
 	
